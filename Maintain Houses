@@ -1,0 +1,40 @@
+                                                                                                 MAINTAIN HOUSES
+
+Primary actors: Faculty member
+
+Use case description:
+This process makes it easy for faculty members to get help with maintenance 
+issues in their homes. They will just submit a request and the estate office system will send it to
+maintenance department. And will make sure the request is fulfilled by constantly reminding it to
+maintenance department. 
+
+Stack holders and interests:                                             
+•	Faculty Member: They are the ones who submit maintenance request and wants their request to be fulfilled on time.
+•	Estate Office System: This system categorizes the requests and remind the maintenance department about the request 
+      that needs to be done till it is fulfilled ensuring no requests remain unfulfilled. 
+•	Maintenance Department: The team that actually does the work, resolving issues as they’re requested.
+
+Preconditions:
+Faculty members must have a house assigned to them to make a maintenance request.
+
+Postconditions:
+The request of the faculty is fulfilled by maintenance department and is reported to estate office. 
+
+Main success scenario:
+1.	The Faculty Member submits a Request.
+2.	The system assigns a unique ID to the request and categorizes the issue (like plumbing, electrical, network etc).
+3.	The estate office system assigns request as “unfulfilled”.
+4.	The System then notifies the maintenance department with the details along with the type and priority of the request.
+5.	The maintenance team member responsible gets assigned to solve it.
+6.	 Maintenance Team Fixes the Problem.
+7.	The maintenance department report to estate office about the issue, then estate office update the request status to “fulfilled” 
+             in the system once the work is done.
+
+Alternate scenarios:
+•	The faculty member may cancel the request. The system will then marked it as cancelled and inform the maintenance department.
+•	If the maintenance team has questions regarding the request. The system then reaches to the faculty member to get clarification 
+and asks the faculty to update the request accordingly.
+
+Frequency of occurrence:
+The frequency of occurrence maybe daily, weekly, monthly or in rare case annually depending on the circumstances faced by faculty members. 
+
