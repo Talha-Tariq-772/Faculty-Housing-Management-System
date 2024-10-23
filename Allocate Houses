@@ -1,0 +1,40 @@
+                                                                                                                                                			                     ALLOCATE HOUSES
+
+       Primary actors: 
+•	Faculty Members
+•	Estate Office
+       Use case description:
+                                     In his process houses will be allocated to the faculty members on the basis of seniority. They will mail to estate office to show interest for getting house.
+       Stack holders and interests:     
+•	Faculty Member: 
+                                                                            They are the ones who would mail to the estate office, so that house would be allocated to them. 
+•	Estate Office : 
+                                                                       The estate office administration facilitate the requests and applies constraints to ensure valid request and person on basis of seniority. 
+                                                                       It will also carry out the whole process necessary to allocate house.                     
+                                                                        
+   Preconditions:
+                                  Faculty members must mail and show interest to get a house.
+
+      Postconditions:
+                              The house is allocated to faculty member. 
+     Main success scenario:
+1.	The Faculty Member mails to estate office.
+2.	The estate office administration verifies the person and request.
+3.	The estate office administration manages requests according to vacancies available.
+4.	The estate office administration allocates the house to faculty members.
+
+Alternate scenarios:
+•	The faculty member may mail again to cancel the previous request. The estate office administration then will exclude that specific request.
+•	The estate office administration may find the person is not eligible to request a house (Junior staff).
+•	The estate office administration has not enough vacancies to facilitate all requests.
+
+
+
+
+
+                                        
+
+
+
+          
+
