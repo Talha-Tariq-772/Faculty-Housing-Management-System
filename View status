@@ -1,0 +1,33 @@
+Use Case: Faculty viewing request’s status for house allocation
+
+Primary Actor:
+- Faculty Member
+Stake holders and Interests:
+1.	Faculty Members:
+Interest: To receive timely allocation of housing based on their seniority and to easily made, view and manage their housing requests. They also want to ensure that maintenance issues are resolved promptly.
+2.	Estate Office:
+Interest: To efficiently manage the allocation of houses, maintain accurate records of house information and statuses, and ensure that the allocation process is fair and transparent based on faculty seniority.
+3.	Maintenance Department:
+Interest: To receive and address maintenance requests promptly, track the fulfillment of these requests, and ensure that faculty members have a safe and comfortable living environment.
+4.	University Administration:
+Interest: To oversee the housing allocation process, ensure compliance with university policies, and maintain faculty satisfaction, which can impact retention and recruitment.
+Preconditions:
+- The faculty member must be signed into the Faculty Housing Management System.
+- The faculty member must have a request being made for house allocation so that he/she can view its status.
+Postconditions:
+- The faculty member successfully views the status of their house allocation requests or receives appropriate error messages if issues arise.
+- The system logs access and any errors for security purposes.
+
+Basic Flow:
+1.	The faculty member logs into the Faculty Housing Management System.
+2.	The system validates the identity of the faculty member.
+3.	If the identity is valid, the system presents multiple options, including the ability to view the request’s status.
+4.	The faculty member selects the option to view the status of their house allocation request.
+5.	The system checks if the faculty member has made a request for house allocation.
+6.	If validated, the system displays a list of all requests made by the faculty member, along with their respective information and statuses.
+7.	The faculty member views the status of their requests.
+Alternate Flow:
+- If the faculty member's identification is invalid while login, the system will display an error message to the faculty member to try logging in again.
+- If the Faculty had not made any request, then the system will display an error message and send the user to the previous page. 
+Frequency of occurrence:
+The frequency of occurrence can be continuous.
